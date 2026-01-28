@@ -1,0 +1,25 @@
+{
+    "periodo": "Mensual",
+    "mes": "January 2026",
+    "gastos": [
+        {
+            "id": "00006",
+            "fecha": "2026-1-21",
+            "categoria": "entretenimiento",
+            "cantidad": 500000.0,
+            "descripcion": "cine"
+        },
+        {
+            "id": "00008",
+            "fecha": "2026-1-2",
+            "categoria": "deporte",
+            "cantidad": 300000.0,
+            "descripcion": "zapatos"
+        }
+    ],
+    "total": 800000.0,
+    "por_categoria": {
+        "entretenimiento": 500000.0,
+        "deporte": 300000.0
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "gastos": [
+        {
+            "id": "00001",
+            "fecha": "2025-05-03",
+            "categoria": "comida",
+            "cantidad": 80000.0,
+            "descripcion": "pizza"
+        },
+        {
+            "id": "00002",
+            "fecha": "2025-03-23",
+            "categoria": "comida",
+            "cantidad": 85555.0,
+            "descripcion": "hamburguesa"
+        },
+        {
+            "id": "00003",
+            "fecha": "2025-12-01",
+            "categoria": "entretenimiento",
+            "cantidad": 85000.0,
+            "descripcion": "cine"
+        },
+        {
+            "id": "00004",
+            "fecha": "2021-12-10",
+            "categoria": "comida",
+            "cantidad": 25000.0,
+            "descripcion": "hamburguesa"
+        },
+        {
+            "id": "00005",
+            "fecha": "2020-4-11",
+            "categoria": "comida",
+            "cantidad": 25000.0,
+            "descripcion": "hamburguesa"
+        },
+        {
+            "id": "00006",
+            "fecha": "2026-1-21",
+            "categoria": "entretenimiento",
+            "cantidad": 500000.0,
+            "descripcion": "cine"
+        },
+        {
+            "id": "00007",
+            "fecha": "2025-12-31",
+            "categoria": "deporte",
+            "cantidad": 25888.0,
+            "descripcion": ""
+        },
+        {
+            "id": "00008",
+            "fecha": "2026-1-2",
+            "categoria": "deporte",
+            "cantidad": 300000.0,
+            "descripcion": "zapatos"
+        },
+        {
+            "id": "00009",
+            "fecha": "2020-11-10",
+            "categoria": "entretenimiento",
+            "cantidad": 250000.0,
+            "descripcion": "cine"
+        },
+        {
+            "id": "00010",
+            "fecha": "2026-01-10",
+            "categoria": "comida",
+            "cantidad": 24400.0,
+            "descripcion": "msms"
+        }
+    ],
+    "categorias": [
+        "comida",
+        "entretenimiento",
+        "deporte"
+    ]
+}
