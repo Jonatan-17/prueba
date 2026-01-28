@@ -2,6 +2,11 @@ import re
 from datetime import datetime
 
 def validarFecha(fecha_str):
+    patron = r'^\d{4}-\d{2}-\d{2}$'
+    if not re.match(patron, fecha_str):
+        print(" Error: Formato de fecha inválido. Use YYYY-MM-DD (ejemplo: 2026-01-05).")
+        return False
+    
     try:
         fecha = datetime.strptime(fecha_str, "%Y-%m-%d")
         hoy = datetime.now()

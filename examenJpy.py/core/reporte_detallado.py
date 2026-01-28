@@ -19,6 +19,7 @@ def reporte_detallado(fecha_inicio, fecha_fin, categoria=None):
         return None
     
     filtrados = []
+    errores_formato = []
     
     for g in gastos:
         try:
@@ -28,7 +29,12 @@ def reporte_detallado(fecha_inicio, fecha_fin, categoria=None):
                 if categoria is None or g["categoria"].lower() == categoria.lower():
                     filtrados.append(g)
         except ValueError:
+            errores_formato.append(g["id"])
             continue
+    
+    if errores_formato:
+        print(f"\n Advertencia: {len(errores_formato)} gastos tienen formato de fecha incorrecto y fueron excluidos.")
+        print(f" IDs excluidos: {', '.join(errores_formato)}")
     
     os.makedirs("reports", exist_ok=True)
     

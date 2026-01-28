@@ -1,0 +1,21 @@
+{
+    "gastos": [
+        {
+            "id": "00001",
+            "fecha": "2026-01-24",
+            "categoria": "campus",
+            "cantidad": 20.0,
+            "descripcion": ""
+        },
+        {
+            "id": "00002",
+            "fecha": "2026-01-24",
+            "categoria": "campus",
+            "cantidad": 2000.0,
+            "descripcion": ""
+        }
+    ],
+    "categorias": [
+        "campus"
+    ]
+}

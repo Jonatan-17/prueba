@@ -30,14 +30,14 @@
         },
         {
             "id": "00005",
-            "fecha": "2020-4-11",
+            "fecha": "2020-04-11",
             "categoria": "comida",
             "cantidad": 25000.0,
             "descripcion": "hamburguesa"
         },
         {
             "id": "00006",
-            "fecha": "2026-1-21",
+            "fecha": "2026-01-21",
             "categoria": "entretenimiento",
             "cantidad": 500000.0,
             "descripcion": "cine"
@@ -51,7 +51,7 @@
         },
         {
             "id": "00008",
-            "fecha": "2026-1-2",
+            "fecha": "2026-01-02",
             "categoria": "deporte",
             "cantidad": 300000.0,
             "descripcion": "zapatos"

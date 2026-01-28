@@ -2,7 +2,7 @@ from ui.prompts import inputSeguro
 from utils.screenControllers import limpiarPantalla, pausarPantalla
 from utils.validators import validarFecha
 from core.storage import loadData
-from reports.reporte_detallado import reporte_detallado
+from core.reporte_detallado import reporte_detallado
 
 def generarReporteDetalladoUI():
     limpiarPantalla()
