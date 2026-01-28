@@ -4,6 +4,7 @@ from core.gastoManager import registrarGasto
 from ui.listado import listarGastosMenu
 from ui.calculos import calcularTotalesMenu
 from ui.reporte import generarReporteMenu
+from ui.reporte_detallado_ui import generarReporteDetalladoUI
 
 def menuPrincipal():
     while True:
@@ -13,13 +14,12 @@ def menuPrincipal():
         Simulador de Gasto Diario
 =============================================
 Seleccione una opción:
-
 1. Registrar nuevo gasto
 2. Listar gastos
 3. Calcular total de gastos
 4. Generar reporte de gastos
-
-5. Salir
+5. Generar reporte detallado de gastos
+6. Salir
 =============================================
 """)
 
@@ -34,6 +34,8 @@ Seleccione una opción:
         elif opcion == "4":
             generarReporteMenu()
         elif opcion == "5":
+            generarReporteDetalladoUI()
+        elif opcion == "6":
             if confirmarAccion("¿Desea salir del programa? (S/N): "):
                 print("\nGracias por usar el Simulador de Gasto Diario.")
                 break
